@@ -3,4 +3,4 @@ rate = 0.05
 time = 3
 interest = principal * rate * time
 
-print(f"The interest is: {intrest}")
+print(f"The interest is: {interest}")
