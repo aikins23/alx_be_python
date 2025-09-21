@@ -5,13 +5,13 @@ operation = input("Choose the operation (+, -, *, /): ")
 
 match operation:
     case "+":
-        print(f"The result of {num_1} + {num_2} = {num_1 + num_2}")
+        print(f"The result is {num_1 + num_2}")
     case "-":
-        print(f"The result of {num_1} - {num_2} = {num_1 - num_2}")
+        print(f"The result is {num_1 - num_2}")
     case "*":
-        print(f"The result of {num_1} * {num_2} = {num_1 * num_2}")
+        print(f"The result is {num_1 * num_2}")
     case "/":
         if num_2 ==0:
             print(f"Cannot divide by zero.")
         else:
-            print(f"The result of {num_1} / {num_2} = {num_1 / num_2}")
+            print(f"The result is  {num_1 / num_2}")
