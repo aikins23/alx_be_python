@@ -1,4 +1,4 @@
-class BankAccount():
+class BankAccount:
     def __init__(self, initial_balance=0):
         self.account_balance = initial_balance
 
@@ -20,5 +20,5 @@ class BankAccount():
         print(f"{amount} Withdrawn")
         return True
 
-        def display_balance(self):
-            print(f"Account Balance: {self.account_balance}")
+    def display_balance(self):
+        print(f"Account Balance: {self.account_balance}")
