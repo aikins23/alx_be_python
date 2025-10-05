@@ -18,7 +18,7 @@ class BankAccount:
             print(f"Insufficient funds: ")
         return False
         self.account_balance -= amount
-        print(f"{amount} Withdrawn")
+        print(f"Withdrew: {amount}")
         return True
 
     def display_balance(self):
